@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(131, 221, 233);
+    background-color: rgb(46, 171, 125);
 } 
 nav{
     display: flex;
@@ -47,13 +47,13 @@ ul li a:hover{
      height: 640px;
     
 } 
+.main img{
+    border-radius: 10%;
+}
 .mainText h1{
-    font-size: 55px;
+    font-size: 50px;
 }
-.mainText h3{
-    font-size: 35px;
-    margin-top: 20px;
-}
+
 .mainText button{
     width: 140px;
     height: 40px;
