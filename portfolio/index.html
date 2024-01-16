@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contanier">
+        <nav>
+            <div class="logo">
+                <h1>PortFolio</h1>
+            </div>
+            <ul>
+                <li><a href=""><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-address-card"></i>About</a></li>
+                <li><a href="#service"><i class="fa-brands fa-servicestack"></i>Service</a></li>
+                <li><a href="#work"><i class="fa-solid fa-briefcase"></i>Work</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-id-badge"></i>Contact</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="main">
+            <div class="mainText">
+                <h3>Hello I am,</h3>
+                <h1>Vignesh Muthaiah</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit <br>
+                 . Necessitatibus eos vero iure nesciunt. Quisquam quidem <br>
+                  laborum numquam officiis nostrum.</p>
+                <button onclick="downlodeBtn()">Downlode CV</button>
+            </div>
+            <img src="about-pic.jpeg" alt="">
+        </div>
+
+        <div id="about">
+            <div class="head">
+                <h1>About Us</h1>
+            </div>
+            <div class="about">
+                <div class="aboutText">
+                    <h1>Vignesh Muthaiah</h1>
+                    <p>Front Developer</p>
+                    <p>Lorem ipsum dolor sit amet consectetur <br>
+                      adipisicing elit Exercitationem, cum ea <br>
+                       aliquid rem dolorem rerum mollitia  <br>
+                       sint! Atque corporis eum fugit saepe?</p>
+
+                </div>
+                <img src="about-pic.jpeg" alt="">
+            </div>
+        </div>
+
+        <div id="service">
+            <div class="head">
+                <h1>Our Service</h1>
+            </div>
+            <div class="btns">
+                <button class="btn" id="web">Web Development</button>
+            </div>
+            <div class="service" >
+                
+                <div class="serviceCard" id="webDesign">
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Web Develoment</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolores blanditiis at quam.</p>
+                    <button>Contact</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="work">
+            <div class="head">
+                <h1>My Work's</h1>
+            </div>
+            <div class="work">
+               
+                <div class="workCard">
+                    <img src="main.jpg" alt="">
+                    <h3>Hospital Website</h3>
+                    <p>Hospital Website Using and HTML CSS javascript</p>
+                    <a href="https://github.com/Viggiii/web-projects/tree/main/hospital" target="_blank">Checkout</a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="head">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="contact">
+                <input type="text" placeholder="Enter Your Name" id="name">
+                <input type="text" placeholder="Enter Your Email" id="email">
+                <textarea name="" id="msg" cols="40" rows="6" value="" placeholder="Enter Message..."></textarea>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+        <br>
+        <hr>
+
+        <div class="footer">
+            <div class="icons">
+               <p><i class="fa-brands fa-twitter"></i><a href="#">tiwtter</a></p>
+               <p><i class="fa-brands fa-github"></i><a href="https://github.com/dashboard">github</a></p>
+               <p><i class="fa-brands fa-linkedin"></i><a href="#">linkedin</a></p>
+               <p><i class="fa-brands fa-instagram"></i><a href="#">instagram</a></p>
+            </div>
+            <div class="text">
+                <p>Privacy Policy</p>
+                <p>Term & Condition</p>
+                <p>Disclaimer</p>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
