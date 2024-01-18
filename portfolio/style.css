@@ -4,8 +4,8 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(2, 2, 20);
-    color: white;
+    background-color:rgb(157, 225, 214);
+    color:black;
 }
 nav{
     display: flex;
@@ -142,7 +142,7 @@ ul li a:hover{
 }
 .work{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .workCard{
@@ -152,7 +152,10 @@ ul li a:hover{
 .workCard img{
     width: 600px;
     border-radius: 5px;
-    margin-inline: 22px;
+    margin-inline: 20px;
+}
+.workCard video{
+    height: 300px;
 }
 .workCard a{
     padding: 5px 22px;
@@ -199,7 +202,9 @@ ul li a:hover{
     margin-top: 52px;
 }
 .footer{
+    background-color: black;
     padding: 33px;
+    color: white;
 }
 .text{
     text-align: center;
